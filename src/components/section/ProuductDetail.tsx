@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ChevronLeft, ChevronRight, Minus, Plus, ShoppingCart, MessageCircle } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Minus, Plus, MessageCircle } from 'lucide-react'
 
 const ProductDetail: React.FC = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0)
